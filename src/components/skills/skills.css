@@ -1,0 +1,27 @@
+:root {
+    --percentage: 0%;
+}
+
+section.skills .title {
+    font-size: 2.1rem;
+    color: var(--title);
+    margin-bottom: 1rem;
+}
+
+section.skills .main.flex {
+    gap: 1rem;
+}
+
+section.skills .right-section {
+    flex-grow: 1;
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+@media (max-width: 1250px) {
+    .skills .left-section {
+        display: none;
+    }
+}
