@@ -24,6 +24,7 @@ export default function Skills() {
                 <ProgressBar per={0.75} skill={"JAVA-SpringBoot"}/>
                 <ProgressBar per={0.6} skill={"Docker-Kubernetes-DevOps"}/>
                 <ProgressBar per={0.4} skill={"Blockchain-Solidity"}/>
+                <ProgressBar per={0.5} skill={"Micoservices"}/>
             </div>
         </div>
     </section>
